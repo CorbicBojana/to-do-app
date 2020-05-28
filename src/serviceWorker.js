@@ -19,7 +19,7 @@ const isLocalhost = Boolean(
       /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
     )
 );
-
+// https://us04web.zoom.us/reset_password?code=J-CaoZnIi07928WTJppWBJ5eIscZ-rjmpABPorGS4uk.BQgAAAFyWxa4DQABUYAWY29yYmljYm9qYW5hQGdtYWlsLmNvbQIAZAAAFmRDVEd2NE45UkMtUzlqdmlueGxXYUEAAAAAAAAAAA
 export function register(config) {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
